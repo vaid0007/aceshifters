@@ -1,14 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="robots" content="noindex, nofollow" />
-  <meta name="description" content="Read the privacy policy of Ace Packers and Shifters to understand how we collect, use, and protect your personal information." />
-  <title>Privacy Policy | Ace Packers and Shifters</title>
-  <link rel="canonical" href="https://www.aceshifters.com/privacy-policy" />
+<meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Ace Shifters || Professional Packing & Moving Services</title>
+    <meta name="description" content="Ace Shifters provides reliable and efficient logistics and transport solutions including household shifting, office relocation, vehicle transport and more across India.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- SEO -->
+    <meta name="keywords" content="Ace Shifters, Packers and Movers, Logistics, Household Shifting, Office Relocation, Vehicle Transport, India Moving Services">
+    <meta name="author" content="Ace Shifters">
+
+    <!-- Robots -->
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.aceshifters.com/">
+    <meta property="og:title" content="Ace Shifters || Professional Packing & Moving Services">
+    <meta property="og:description" content="Reliable logistics and transport solutions across India. Get professional packing, moving, and vehicle transport services.">
+    <meta property="og:image" content="https://www.aceshifters.com/assets/images/og-image.jpg"><!-- Replace with your actual image -->
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.aceshifters.com/">
+    <meta name="twitter:title" content="Ace Shifters || Professional Packing & Moving Services">
+    <meta name="twitter:description" content="Reliable logistics and transport solutions across India. Get professional packing, moving, and vehicle transport services.">
+    <meta name="twitter:image" content="https://www.aceshifters.com/assets/images/twitter-image.jpg"><!-- Replace with your actual image -->
+
+    <?php include "links.php" ?>
+
 </head>
-<body>
+
+<body class="body-dark-bg">
+
+  <?php include "header.php" ?>
+    <div class="container p-5">
+
+ 
   <h1>Privacy Policy</h1>
   <p>Last updated: May 01, 2025</p>
   <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
@@ -120,5 +150,12 @@
     <li>By visiting this page on our website: <a href="https://www.aceshifters.com/contact-us" target="_blank">https://www.aceshifters.com/contact-us</a></li>
     <li>By phone number: +91-7404579111,+91-9138708900</li>
   </ul>
+
+
+  
+</div>
+<?php include "footer.php" ?>
+
 </body>
+
 </html>
