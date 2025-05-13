@@ -1714,7 +1714,7 @@
                         <div class="blog-two__top">
                             <div class="sec-title-two">
                                 <div class="sub-title">
-                                    <h5>LATEST POST</h5>
+                                    <h5 style="color: #ffffff !important;">LATEST POST</h5>
                                 </div>
                                 <h2>Get the latest news & blog</h2>
                             </div>
