@@ -1,44 +1,20 @@
-<!doctype html>
-<html class="no-js" lang="en">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-   <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Ace Shifters | Trusted Packers & Movers Across India</title>
-  <meta name="description" content="Ace Shifters offers professional and secure packing and moving services including household relocation, office shifting, and vehicle transportation across India.">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- SEO Meta Tags -->
-  <meta name="keywords" content="Ace Shifters, Packers and Movers India, Household Relocation, Office Shifting, Car Transport, Bike Transport, Moving Services India, Professional Movers, Logistics Services India">
-  <meta name="author" content="Ace Shifters">
-  <meta name="robots" content="index, follow">
-
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.aceshifters.com/">
-  <meta property="og:title" content="Ace Shifters | Trusted Packers & Movers Across India">
-  <meta property="og:description" content="Professional packing and moving services across India. We ensure safe, timely, and efficient relocation for homes, offices, and vehicles.">
-  <meta property="og:image" content="https://www.aceshifters.com/assets/images/og-image.jpg">
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="https://www.aceshifters.com/">
-  <meta name="twitter:title" content="Ace Shifters | Trusted Packers & Movers Across India">
-  <meta name="twitter:description" content="Reliable logistics and relocation services across India. Get expert packing, safe moving, and on-time transport services.">
-  <meta name="twitter:image" content="https://www.aceshifters.com/assets/images/twitter-image.jpg">
-    <?php include "links.php" ?>
-
-</head>   
-
-
-
-<body class="body-dark-bg">
-
-  <?php include "header.php" ?>
-    <div class="container p-5">
-
- 
+<meta charset="UTF-8">
+  <title>Terms and Conditions | Ace Packers and Shifters</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Read the Terms and Conditions of Ace Packers and Shifters to understand the rules and guidelines for using our website and services.">
+  <meta name="robots" content="noindex, follow">
+  <meta name="author" content="Ace Packers and Shifters">
+  <meta name="publisher" content="Ace Packers and Shifters">
+  <meta name="DC.title" content="Terms and Conditions">
+  <meta name="DC.publisher" content="Ace Packers and Shifters">
+  <meta name="DC.language" content="en">
+  <meta name="DC.subject" content="Terms and Conditions of Ace Packers and Shifters">
+  <link rel="canonical" href="https://www.aceshifters.com/terms-and-conditions">
+</head>
+<body>
   <h1>Terms and Conditions</h1>
   <p><strong>Last updated:</strong> May 01, 2025</p>
   <p>Please read these Terms and Conditions carefully before using our service.</p>
@@ -111,12 +87,6 @@
     <li>By email: <a href="mailto:krishankumar@aceshifters.com">krishankumar@aceshifters.com</a></li>
   </ul>
 
-
-
   
-</div>
-<?php include "footer.php" ?>
-
 </body>
-
 </html>
