@@ -574,8 +574,8 @@
 
                                 <div class="about-two__content-bottom">
                                     <div class="btn-box">
-                                        <a class="thm-btn" href="">
-                                            <span class="txt">Learn More</span> <i class="icon-right-arrow"></i>
+                                        <a class="thm-btn" href="tel:7404579111">
+                                           <span class="txt">Contact Us</span> <i class="icon-right-arrow"></i>
                                         </a>
                                     </div>
                                      
@@ -1394,8 +1394,8 @@
                                     </div>
 
                                     <div class="btn-box">
-                                        <a class="thm-btn" href="#">
-                                            <span class="txt">Contact Us</span> <i class="icon-right-arrow"></i>
+                                        <a class="thm-btn" href="tel:7404579111">
+                                          <span class="txt">Contact Us</span> <i class="icon-right-arrow"></i>
                                         </a>
                                     </div>
                                 </div>

@@ -36,7 +36,8 @@
 <body class="body-dark-bg">
 
   <?php include "header.php" ?>
-    <div class="container p-5">
+  <section class="p-5">
+    <div class="container p-5 bg-secondary bg-opacity-25">
 
  
   <h1>Privacy Policy</h1>
@@ -154,6 +155,7 @@
 
   
 </div>
+    </section>
 <?php include "footer.php" ?>
 
 </body>
