@@ -285,6 +285,22 @@
             -webkit-text-stroke: 2px #ffffff;
         }
 
+        .call-button {
+             display: inline-block;
+            padding: 10px 18px;
+            background-color: var(--thm-primary);
+            color: white;
+            font-size: 16px;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .call-button:hover {
+        background-color: var(--thm-primary);
+        color: white;
+        }
+
         @media (max-width: 800px) {
             .cardPhone {
                 position: absolute;
@@ -312,6 +328,11 @@
                 align-items: center
             }
         }
+
+        .BGIMGE {
+  filter: brightness(50%);
+  color: white;
+}
         </style>
     </head>
 
@@ -323,266 +344,85 @@
             <!--End Main Header Two -->
 
             <!--Start Main Slider Two-->
-            <section class="main-slider main-slider-two">
-                <div class="swiper-container thm-swiper__slider-two">
-                    <div class="swiper-wrapper">
-                        <!--Start Swiper Slide Single-->
-                        <div class="swiper-slide">
-                            <div class="image-layer" style="background-image: url(assets/img/slider/slider-v2-img1.jpg);">
-                            </div>
-                            <div class="shape1"><img src="assets/img/shape/slider-v2-shape1.png" alt=""></div>
-                            <div class="shape2"><img src="assets/img/shape/slider-v2-shape2.png" alt=""></div>
-                            <div class="shape3"><img src="assets/img/shape/slider-v2-shape3.png" alt=""></div>
-                            <div class="shape4"><img class="float-bob-x" src="assets/img/shape/slider-v2-shape4.png" alt="">
-                            </div>
-                            <div class="big-title">
-                                <h2>Reliable Movers</h2>
-                            </div>
-                            <div class="container">
-                                <div class="main-slider-two__single">
-                                    <div class="main-slider-two__content">
-                                        <div class="sub-title">
-                                            <p>Professional Packing & Shifting Services</p>
-                                        </div>
-                                        <div class="title">
-                                            <h2>Fast & Secure <br> Nationwide Moving <br> <span>Solutions</span></h2>
-                                        </div>
-                                        <div class="text">
-                                            <p>With 30+ years of experience in hassle-free relocation, we ensure safe and
-                                                timely delivery of your belongings anywhere.</p>
-                                        </div>
-                                        <div class="btn-box">
-                                            <a class="thm-btn" href="#">
-                                                <span class="txt">Get a Free Quote</span> <i class="icon-right-arrow"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Swiper Slide Single-->
+<section>
+  <div class="w-100 bg-dark position-relative min-vh-100 z-1">
+    <!-- Background Image with dark filter -->
+    <img
+      class="position-absolute w-100 h-100 BGIMGE"
+      src="assets/img/slider/slider-v2-img1.jpg"
+      alt="Moving Service Banner"
+      style="object-fit: cover;"
+    />
 
-                        <!--Start Swiper Slide Single-->
-                        <div class="swiper-slide">
-                            <div class="image-layer" style="background-image: url(assets/img/slider/slider-v2-img2.jpg);">
-                            </div>
-                            <div class="shape1"><img src="assets/img/shape/slider-v2-shape1.png" alt=""></div>
-                            <div class="shape2"><img src="assets/img/shape/slider-v2-shape2.png" alt=""></div>
-                            <div class="shape3"><img src="assets/img/shape/slider-v2-shape3.png" alt=""></div>
-                            <div class="shape4"><img class="float-bob-x" src="assets/img/shape/slider-v2-shape4.png" alt="">
-                            </div>
-                            <div class="big-title">
-                                <h2>Reliable Movers</h2>
-                            </div>
-                            <div class="container">
-                                <div class="main-slider-two__single">
-                                    <div class="main-slider-two__content">
-                                        <div class="sub-title">
-                                            <p>Safe & Affordable Household Relocation</p>
-                                        </div>
-                                        <div class="title">
-                                            <h2>Trusted Home & <br> Office Shifting <br> <span>Experts</span></h2>
-                                        </div>
-                                        <div class="text">
-                                            <p>We handle everything from packing to transportation with utmost care,
-                                                ensuring a stress-free moving experience.</p>
-                                        </div>
-                                        <div class="btn-box">
-                                            <a class="thm-btn" href="#">
-                                                <span class="txt">Book Your Move</span> <i class="icon-right-arrow"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Swiper Slide Single-->
+    <!-- Centered Content -->
+    <div
+  class="position-relative d-flex flex-column justify-content-center align-items-center h-100 text-center px-3"
+  style="color: white;"
+>
+<div class="mt-md-5 pt-md-5">
+  <div class="mt-md-5 pt-md-5">
+    <h2 class="text-white" style="font-size: 3.5rem; font-weight: 700;">
+      Fast & Secure <br />
+      Nationwide Moving <br />
+      <span>Solutions</span>
+    </h2>
+    <p class="text-white">
+      With 30+ years of experience in hassle-free relocation, we ensure safe
+      and timely delivery of your belongings anywhere.
+    </p>
+    <a
+      href="tel:+91-7404579111"
+      class="call-button mt-3"
+      style="color: white; text-decoration: none;"
+    >
+      Call US Now
+    </a>
+  </div>
+</div>
+    
+</div>
+  </div>
+</section>
 
-                        <!--Start Swiper Slide Single-->
-                        <div class="swiper-slide">
-                            <div class="image-layer" style="background-image: url(assets/img/slider/slider-v2-img3.jpg);">
-                            </div>
-                            <div class="shape1"><img src="assets/img/shape/slider-v2-shape1.png" alt=""></div>
-                            <div class="shape2"><img src="assets/img/shape/slider-v2-shape2.png" alt=""></div>
-                            <div class="shape3"><img src="assets/img/shape/slider-v2-shape3.png" alt=""></div>
-                            <div class="shape4"><img class="float-bob-x" src="assets/img/shape/slider-v2-shape4.png" alt="">
-                            </div>
-                            <div class="big-title">
-                                <h2>Reliable Movers</h2>
-                            </div>
-                            <div class="container">
-                                <div class="main-slider-two__single">
-                                    <div class="main-slider-two__content">
-                                        <div class="sub-title">
-                                            <p>Specialized Car & Bike Transport Services</p>
-                                        </div>
-                                        <div class="title">
-                                            <h2>Door-to-Door <br> Vehicle Shipping <br> <span>Made Easy</span></h2>
-                                        </div>
-                                        <div class="text">
-                                            <p>We offer safe and damage-free car and bike transportation with full tracking
-                                                and insurance options.</p>
-                                        </div>
-                                        <div class="btn-box">
-                                            <a class="thm-btn" href="#">
-                                                <span class="txt">Ship Your Vehicle</span> <i class="icon-right-arrow"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Swiper Slide Single-->
+  <!-- About Section -->
+  <section>
+    <div class="container py-5">
+      <div class="row align-items-center">
 
-                        <!--Start Swiper Slide Single-->
-                        <div class="swiper-slide">
-                            <div class="image-layer" style="background-image: url(assets/img/slider/slider-v2-img4.jpg);">
-                            </div>
-                            <div class="shape1"><img src="assets/img/shape/slider-v2-shape1.png" alt=""></div>
-                            <div class="shape2"><img src="assets/img/shape/slider-v2-shape2.png" alt=""></div>
-                            <div class="shape3"><img src="assets/img/shape/slider-v2-shape3.png" alt=""></div>
-                            <div class="shape4"><img class="float-bob-x" src="assets/img/shape/slider-v2-shape4.png" alt="">
-                            </div>
-                            <div class="big-title">
-                                <h2>Reliable Movers</h2>
-                            </div>
-                            <div class="container">
-                                <div class="main-slider-two__single">
-                                    <div class="main-slider-two__content">
-                                        <div class="sub-title">
-                                            <p>Corporate & Industrial Shifting Services</p>
-                                        </div>
-                                        <div class="title">
-                                            <h2>Efficient Logistics <br> for Large-Scale <br> <span>Relocations</span></h2>
-                                        </div>
-                                        <div class="text">
-                                            <p>We provide end-to-end solutions for offices, warehouses, and industrial goods
-                                                shifting with expert handling.</p>
-                                        </div>
-                                        <div class="btn-box">
-                                            <a class="thm-btn" href="#">
-                                                <span class="txt">Plan Your Shift</span> <i class="icon-right-arrow"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Swiper Slide Single-->
-                    </div>
+        <!-- About Image Side -->
+        <div class="col-xl-6 mb-4 mb-xl-0">
+          <div class="position-relative">
+            <img src="assets/img/about/about-v2-img1.jpg" alt="Moving Service" class="img-fluid rounded shadow">
+            <div class="position-absolute top-0 start-0 bg-white text-center p-3 shadow" style="width: 150px;">
+              <h2 class="mb-0">10+</h2>
+              <p class="mb-0">Years of<br>Excellence</p>
+            </div>
+          </div>
+        </div>
 
-                    <!-- Navigation Buttons -->
-                    <div class="main-slider-two__wrap">
-                        <div class="swiper-counter">
-                            <div id="current">1</div>
-                            <div id="total"></div>
-                        </div>
-                    </div>
+        <!-- About Content Side -->
+        <div class="col-xl-6">
+          <div>
+            <h5 class="text-uppercase text-muted">About Us</h5>
+            <h2 class="mb-4">Reliable & Efficient <br> Logistics and Transport Solutions</h2>
+            <p>We specialize in providing seamless logistics solutions tailored to meet diverse transportation needs. Our expertise ensures safe, timely, and efficient delivery of goods with a strong focus on customer satisfaction.</p>
+            <ul class="list-unstyled mt-4">
+              <li class="d-flex align-items-start mb-2">
+                <span class="me-2 text-success">&#10003;</span> Comprehensive transport & logistics services
+              </li>
+              <li class="d-flex align-items-start">
+                <span class="me-2 text-success">&#10003;</span> Dedicated customer support & tracking
+              </li>
+            </ul>
+            <a class="btn btn-primary mt-4" href="tel:+917404579111">
+              Call Now <i class="ms-2 bi bi-telephone-fill"></i>
+            </a>
+          </div>
+        </div>
 
-                    <div class="swiper-nav-style1">
-                        <div class="swiper-button-prev" id="main-slider-two__swiper-button-next">
-                            <i class="icon-left-arrow-5" aria-hidden="true"></i>
-                        </div>
-                        <div class="swiper-button-next" id="main-slider-two__swiper-button-prev">
-                            <i class="icon-right-arrow-5" aria-hidden="true"></i>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--End Main Slider One-->
-
-            <!--Start About Two -->
-            <section class="about-two">
-                <div class="shape1 float-bob-x"><img src="assets/img/shape/about-v2-shape1.png" alt=""></div>
-                <div class="container">
-                    <div class="row">
-                        <!--Start About Two Img-->
-                        <div class="col-xl-6">
-                            <div class="about-two__img">
-                                <div class="about-two__experience-box text-center wow fadeInLeft cardPhone"
-                                    data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    <div class="about-two__experience-box-bg"
-                                        style="background-image: url(assets/img/about/about-v2-img2-.jpg);"></div>
-                                    <div class="inner">
-                                        <h2 class="count"><span class="odometer fs-1" data-count="10"></span><span
-                                                class="plus">+</span>
-                                        </h2>
-                                        <div class="text">
-                                            <p class="fs-6">Years of <br>
-                                                Excellence</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="about-two__img1">
-                                    <img src="assets/img/about/about-v2-img1.jpg" alt="">
-                                </div>
-
-                                <div class="about-two__video wow fadeInRigh cardPhone2" data-wow-delay="0ms"
-                                    data-wow-duration="1500ms">
-                                    <div class="about-two__video-bg"
-                                        style="background-image: url(assets/img/about/about-v2-img3-.jpg);"></div>
-                                    <div class="about-two__video-box">
-                                        <div class="round-text">
-                                            <div class="curved-circle-2">
-                                                ACE PACKER AND SHIFTER
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End About Two Img-->
-
-                        <!--Start About Two Content-->
-                        <div class="col-xl-6">
-                            <div class="about-two__content">
-                                <div class="sec-title-two">
-                                    <div class="sub-title">
-                                        <h5>About Us</h5>
-                                    </div>
-                                    <h2>Reliable & Efficient <br>
-                                        Logistics and Transport Solutions</h2>
-                                </div>
-
-                                <div class="about-two__content-text">
-                                    <p>We specialize in providing seamless logistics solutions tailored to meet diverse
-                                        transportation needs. Our expertise ensures safe, timely, and efficient delivery of
-                                        goods with a strong focus on customer satisfaction.</p>
-                                </div>
-
-                                <div class="about-two__content-list">
-                                    <ul>
-                                        <li>
-                                            <div class="icon-box">
-                                                <span class="icon-check-marked-1"></span>
-                                            </div>
-                                            <p>Comprehensive transport & logistics services</p>
-                                        </li>
-
-                                        <li>
-                                            <div class="icon-box">
-                                                <span class="icon-check-marked-1"></span>
-                                            </div>
-                                            <p>Dedicated customer support & tracking</p>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div class="about-two__content-bottom">
-                                    <div class="btn-box">
-                                        <a class="thm-btn" href="">
-                                            <span class="txt">Learn More</span> <i class="icon-right-arrow"></i>
-                                        </a>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        <!--End About Two Content-->
-                    </div>
-                </div>
-            </section>
+      </div>
+    </div>
+  </section>
 
             <!--End About Two -->
 
@@ -605,179 +445,112 @@
                         <h2>We Provide all Kinds of <br> Logistics Service</h2>
                     </div>
 
-                    <div class="swiper-container services-two__slider">
-                        <div class="swiper-wrapper">
+                <section class="py-5">
+  <div class="container">
+    <div class="row">
+      
+      <!-- Card Start -->
+      <div class="col-12 col-lg-3 mb-4">
+        <div class="services-two__single h-100">
+          <div class="services-two__single-img">
+            <div class="inner">
+              <img src="assets/img/service/Household-Packing-&-Shifting.jpg" alt="Household Packing and Shifting Service" class="img-fluid w-100">
+            </div>
+            <div class="number-box">01</div>
+          </div>
+          <div class="services-two__single-content">
+            <div class="services-two__single-content-inner">
+              <h3><a href="household-shifting.php">Household Packing & Shifting</a></h3>
+              <p>We ensure safe and secure household shifting with expert packing and careful handling.</p>
+              <div class="count-box">01</div>
+            </div>
+            <div class="btn-box text-center">
+              <a class="thm-btn" href="tel:+917404579111">
+                <span class="txt px-2">Call Now</span> <i class="icon-phone"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Card End -->
 
-                            <div class="swiper-slide">
-                                <div class="services-two__single">
-                                    <div class="services-two__single-img">
-                                        <div class="inner">
-                                            <img src="assets/img/service/Household-Packing-&-Shifting.jpg"
-                                                alt="Household Packing and Shifting Service">
-                                        </div>
-                                        <div class="number-box">01</div>
-                                    </div>
-                                    <div class="services-two__single-content">
-                                        <div class="services-two__single-content-inner">
-                                            <h3><a href="household-shifting.php">Household Packing & Shifting</a></h3>
-                                            <p>We ensure safe and secure household shifting with expert packing and careful
-                                                handling.</p>
-                                            <div class="count-box">01</div>
-                                        </div>
-                                        <div class="btn-box">
-                                            <a class="thm-btn" href="household-packing-shifting.php">
-                                                <span class="txt">Read More</span> <i class="icon-right-arrow"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+      <!-- Repeat same structure for other cards -->
+      <!-- Card 2 -->
+      <div class="col-12 col-lg-3 mb-4">
+        <div class="services-two__single h-100">
+          <div class="services-two__single-img">
+            <div class="inner">
+              <img src="assets/img/service/Car-&-Bike-Transport.jpg" alt="Car and Bike Transportation Service" class="img-fluid w-100">
+            </div>
+            <div class="number-box">02</div>
+          </div>
+          <div class="services-two__single-content">
+            <div class="services-two__single-content-inner">
+              <h3><a href="car-bike-transport.php">Car & Bike Transport</a></h3>
+              <p>Secure and timely transport of your vehicles with advanced safety measures.</p>
+              <div class="count-box">02</div>
+            </div>
+            <div class="btn-box text-center">
+              <a class="thm-btn" href="tel:+917404579111">
+                <span class="txt px-2">Call Now</span> <i class="icon-phone"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-                            <div class="swiper-slide">
-                                <div class="services-two__single">
-                                    <div class="services-two__single-img">
-                                        <div class="inner">
-                                            <img src="assets/img/service/Car-&-Bike-Transport.jpg"
-                                                alt="Car and Bike Transportation Service">
-                                        </div>
-                                        <div class="number-box">02</div>
-                                    </div>
-                                    <div class="services-two__single-content">
-                                        <div class="services-two__single-content-inner">
-                                            <h3><a href="car-bike-transport.php">Car & Bike Transport</a></h3>
-                                            <p>Secure and timely transport of your vehicles with advanced safety measures.
-                                            </p><br>
-                                            <div class="count-box">02</div>
-                                        </div>
-                                        <div class="btn-box">
-                                            <a class="thm-btn" href="car-bike-transport.php">
-                                                <span class="txt">Read More</span> <i class="icon-right-arrow"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+      <!-- Card 3 -->
+      <div class="col-12 col-lg-3 mb-4">
+        <div class="services-two__single h-100">
+          <div class="services-two__single-img">
+            <div class="inner">
+              <img src="assets/img/service/office-shifting.jpg" alt="Office Shifting Service" class="img-fluid w-100">
+            </div>
+            <div class="number-box">03</div>
+          </div>
+          <div class="services-two__single-content">
+            <div class="services-two__single-content-inner">
+              <h3><a href="office-shifting.php">Office Shifting</a></h3>
+              <p>Efficient and hassle-free office shifting solutions tailored to your business needs.</p>
+              <div class="count-box">03</div>
+            </div>
+            <div class="btn-box text-center">
+              <a class="thm-btn" href="tel:+917404579111">
+                <span class="txt px-2">Call Now</span> <i class="icon-phone"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-                            <div class="swiper-slide">
-                                <div class="services-two__single">
-                                    <div class="services-two__single-img">
-                                        <div class="inner">
-                                            <img src="assets/img/service/office-shifting.jpg" alt="Office Shifting Service">
-                                        </div>
-                                        <div class="number-box">03</div>
-                                    </div>
-                                    <div class="services-two__single-content">
-                                        <div class="services-two__single-content-inner">
-                                            <h3><a href="office-shifting.php">Office Shifting</a></h3>
-                                            <p>Efficient and hassle-free office shifting solutions tailored to your business
-                                                needs.</p><br>
-                                            <div class="count-box">03</div>
-                                        </div>
-                                        <div class="btn-box">
-                                            <a class="thm-btn" href="office-shifting.php">
-                                                <span class="txt">Read More</span> <i class="icon-right-arrow"></i>
-                                            </a>
-                                        </div>
+      <!-- Card 4 -->
+      <div class="col-12 col-lg-3 mb-4">
+        <div class="services-two__single h-100">
+          <div class="services-two__single-img">
+            <div class="inner">
+              <img src="assets/img/service/Furniture-Packing-&-Shifting.jpg" alt="Furniture Packing and Shifting Service" class="img-fluid w-100">
+            </div>
+            <div class="number-box">04</div>
+          </div>
+          <div class="services-two__single-content">
+            <div class="services-two__single-content-inner">
+              <h3><a href="furniture-packing-shifting.php">Furniture Packing & Shifting</a></h3>
+              <p>Safe and careful handling of your valuable furniture with high-quality packing materials.</p>
+              <div class="count-box">04</div>
+            </div>
+            <div class="btn-box text-center">
+              <a class="thm-btn" href="tel:+917404579111">
+                <span class="txt px-2">Call Now</span> <i class="icon-phone"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="services-two__single">
-                                    <div class="services-two__single-img">
-                                        <div class="inner">
-                                            <img src="assets/img/service/Furniture-Packing-&-Shifting.jpg"
-                                                alt="Furniture Packing and Shifting Service">
-                                        </div>
-                                        <div class="number-box">04</div>
-                                    </div>
-                                    <div class="services-two__single-content">
-                                        <div class="services-two__single-content-inner">
-                                            <h3><a href="furniture-packing-shifting.php">Furniture Packing & Shifting</a>
-                                            </h3>
-                                            <p>Safe and careful handling of your valuable furniture with high-quality
-                                                packing materials.</p>
-                                            <div class="count-box">04</div>
-                                        </div>
-                                        <div class="btn-box">
-                                            <a class="thm-btn" href="furniture-packing-shifting.php">
-                                                <span class="txt">Read More</span> <i class="icon-right-arrow"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="services-two__single">
-                                    <div class="services-two__single-img">
-                                        <div class="inner">
-                                            <img src="assets/img/service/Machinery-&-Equipment-Shifting.jpg"
-                                                alt="Machinery and Equipment Shifting Service">
-                                        </div>
-                                        <div class="number-box">05</div>
-                                    </div>
-                                    <div class="services-two__single-content">
-                                        <div class="services-two__single-content-inner">
-                                            <h3><a href="machinery-equipment-shifting.php">Machinery & Equipment
-                                                    Shifting</a></h3>
-                                            <p>Professional shifting services for industrial machinery and heavy equipment.
-                                            </p>
-                                            <div class="count-box">05</div>
-                                        </div>
-                                        <div class="btn-box">
-                                            <a class="thm-btn" href="machinery-equipment-shifting.php">
-                                                <span class="txt">Read More</span> <i class="icon-right-arrow"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="services-two__single">
-                                    <div class="services-two__single-img">
-                                        <div class="inner">
-                                            <img src="assets/img/service/Corporate-Shifting.jpg"
-                                                alt="Corporate Shifting Service">
-                                        </div>
-                                        <div class="number-box">06</div>
-                                    </div>
-                                    <div class="services-two__single-content">
-                                        <div class="services-two__single-content-inner">
-                                            <h3><a href="corporate-shifting.php">Corporate Shifting</a></h3>
-                                            <p>Reliable moving solutions for corporate offices with minimal downtime.</p>
-                                            <br>
-                                            <div class="count-box">06</div>
-                                        </div>
-                                        <div class="btn-box">
-                                            <a class="thm-btn" href="corporate-shifting.php">
-                                                <span class="txt">Read More</span> <i class="icon-right-arrow"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="services-two__wrap">
-                        <div class="swiper-counter">
-                            <div id="current2">1</div>
-                            <div id="total2"></div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-nav-style1">
-                        <div class="swiper-button-prev" id="services-two__swiper-button-next">
-                            <i class="icon-left-arrow-5" aria-hidden="true"></i>
-                        </div>
-                        <div class="swiper-button-next" id="services-two__swiper-button-prev">
-                            <i class="icon-right-arrow-5" aria-hidden="true"></i>
-                        </div>
-                    </div>
+    </div>
+  </div>
+</section>
+       
                 </div>
             </section>
 
@@ -907,6 +680,11 @@
                                             <span class="txt">Request a Quote</span>
                                         </button>
                                     </div>
+                                     <div class="btn-box text-center bg-white">
+                                        <a class="thm-btn" href="tel:+917404579111">
+                                            <span class="txt px-2">Call Now</span> <i class="icon-phone"></i>
+                                        </a>
+                                    </div>
                                 </form>
                             </div>
                         </div>
@@ -918,227 +696,8 @@
             <!--End Company Benefit One-->
             
 
-                <div class="testimonials-two__bg"
-                    style="background-image: url(assets/img/background/testimonials-v2-bg.jpg);"></div>
-                <div class="container">
-                    <div class="sec-title-two">
-                        <div class="sub-title">
-                            <h5 class="text-white">Testimonials</h5>
-                        </div>
-                        <h2>What Our Customer Say</h2>
-                    </div>
-                    <div class="swiper-container testimonials-two__slider">
-                        <div class="swiper-wrapper">
-
-                            <div class="swiper-slide">
-                                <!--Start Testimonials Two Single-->
-                                <div class="testimonials-two__single">
-                                    <div class="quote-icon"><span class="icon-quote11"></span></div>
-                                    <div class="testimonials-two__single-top">
-                                        <div class="img-box">
-                                            <img src="assets/img/testimonial/testimonials-one__img11.jpg"
-                                                alt="Customer Testimonial">
-                                        </div>
-                                        <div class="text-box">
-                                            <p>Satisfied Customer</p>
-                                            <h3>Rajesh Verma</h3>
-                                        </div>
-                                    </div>
-
-                                    <div class="testimonials-two__single-bottom">
-                                        <div class="rating-box">
-                                            <a href="#"><i class="icon-star"></i></a>
-                                            <a href="#"><i class="icon-star"></i></a>
-                                            <a href="#"><i class="icon-star"></i></a>
-                                            <a href="#"><i class="icon-star"></i></a>
-                                            <a href="#"><i class="icon-star"></i></a>
-                                        </div>
-                                        <div class="content-box">
-                                            <h3>“Safe & Fast Shifting”</h3>
-                                            <p>Excellent service! My items were packed well and delivered safely on time.
-                                                Highly recommended for shifting needs.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--End Testimonials Two Single-->
-                            </div>
-
-                            <div class="swiper-slide">
-                                <!--Start Testimonials Two Single-->
-                                <div class="testimonials-two__single">
-                                    <div class="quote-icon"><span class="icon-quote11"></span></div>
-                                    <div class="testimonials-two__single-top">
-                                        <div class="img-box">
-                                            <img src="assets/img/testimonial/testimonials-v2-img22.jpg"
-                                                alt="Customer Testimonial">
-                                        </div>
-                                        <div class="text-box">
-                                            <p>Satisfied Customer</p>
-                                            <h3>Sangeeta Sharma</h3>
-                                        </div>
-                                    </div>
-
-                                    <div class="testimonials-two__single-bottom">
-                                        <div class="rating-box">
-                                            <a href="#"><i class="icon-star"></i></a>
-                                            <a href="#"><i class="icon-star"></i></a>
-                                            <a href="#"><i class="icon-star"></i></a>
-                                            <a href="#"><i class="icon-star"></i></a>
-                                            <a href="#"><i class="icon-star"></i></a>
-                                        </div>
-                                        <div class="content-box">
-                                            <h3>“Professional & Reliable”</h3>
-                                            <p>The transport service was smooth and well-organized. Everything arrived
-                                                safely without any damage. Very reliable company!</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--End Testimonials Two Single-->
-                            </div>
-
-                            <div class="swiper-slide">
-                                <!--Start Testimonials Two Single-->
-                                <div class="testimonials-two__single">
-                                    <div class="quote-icon"><span class="icon-quote11"></span></div>
-                                    <div class="testimonials-two__single-top">
-                                        <div class="img-box">
-                                            <img src="assets/img/testimonial/testimonials-v2-img11.jpg"
-                                                alt="Customer Testimonial">
-                                        </div>
-                                        <div class="text-box">
-                                            <p>Satisfied Customer</p>
-                                            <h3>Aditya Mishra</h3>
-                                        </div>
-                                    </div>
-
-                                    <div class="testimonials-two__single-bottom">
-                                        <div class="rating-box">
-                                            <a href="#"><i class="icon-star"></i></a>
-                                            <a href="#"><i class="icon-star"></i></a>
-                                            <a href="#"><i class="icon-star"></i></a>
-                                            <a href="#"><i class="icon-star"></i></a>
-                                            <a href="#"><i class="icon-star"></i></a>
-                                        </div>
-                                        <div class="content-box">
-                                            <h3>“Best Packing & Moving”</h3>
-                                            <p>Great experience! The team packed my furniture securely and delivered it
-                                                without delay. I will use their service again.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--End Testimonials Two Single-->
-                            </div>
-
-                        </div>
-                    </div>
-
-
-
-                    <!-- If we need navigation buttons -->
-                    <div class="testimonials-two__wrap">
-                        <div class="swiper-counter">
-                            <div id="current3">1</div>
-                            <div id="total3"></div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-nav-style1">
-                        <div class="swiper-button-prev" id="testimonials-two__swiper-button-next">
-                            <i class="icon-left-arrow-5" aria-hidden="true"></i>
-                        </div>
-                        <div class="swiper-button-next" id="testimonials-two__swiper-button-prev">
-                            <i class="icon-right-arrow-5" aria-hidden="true"></i>
-                        </div>
-                    </div>
-                </div>
-                </br>
-                </br>
-                </br>
-                </br>
-
  
             <!-- Start keywords-section -->
-
-            <section class="fact-counter-two "  style="padding-top: 90px;">  
-                <div class="shape1 float-bob-y"><img src="assets/img/shape/counter-v2-shape1.png" alt=""></div>
-                <div class="container">
-                    <div class="row">
-                        <!--Start Fact Counter Two Single-->
-                        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                            <div class="fact-counter-two__single">
-                                <div class="icon-box">
-                                    <span class="icon-special-shipments"></span>
-                                </div>
-                                <div class="fact-counter-two__single-inner">
-                                    <h2 class="count"><span class="plus">+</span><span class="odometer"
-                                            data-count="250000"></span>
-                                    </h2>
-                                    <div class="text">
-                                        <p>Parcels Shipped Safely</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Fact Counter Two Single-->
-
-                        <!--Start Fact Counter Two Single-->
-                        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInDown" data-wow-delay=".3s">
-                            <div class="fact-counter-two__single">
-                                <div class="icon-box">
-                                    <span class="icon-global-network"></span>
-                                </div>
-                                <div class="fact-counter-two__single-inner">
-                                    <h2 class="count"><span class="plus">+</span><span class="odometer"
-                                            data-count="95000"></span>
-                                    </h2>
-                                    <div class="text">
-                                        <p>Cities Served Worldwide</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Fact Counter Two Single-->
-
-                        <!--Start Fact Counter Two Single-->
-                        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                            <div class="fact-counter-two__single">
-                                <div class="icon-box">
-                                    <span class="icon-satisfied3"></span>
-                                </div>
-                                <div class="fact-counter-two__single-inner">
-                                    <h2 class="count"><span class="plus">+</span><span class="odometer"
-                                            data-count="2560"></span>
-                                    </h2>
-                                    <div class="text">
-                                        <p>Satisfied Clients</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Fact Counter Two Single-->
-
-                        <!--Start Fact Counter Two Single-->
-                        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInDown" data-wow-delay=".3s">
-                            <div class="fact-counter-two__single">
-                                <div class="icon-box">
-                                    <span class="icon-support"></span>
-                                </div>
-                                <div class="fact-counter-two__single-inner">
-                                    <h2 class="count"><span class="plus">+</span><span class="odometer"
-                                            data-count="1200"></span>
-                                    </h2>
-                                    <div class="text">
-                                        <p>Company We Help</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Fact Counter Two Single-->
-                    </div>
-                </div>
-            </section>
-             
-             
 
             <section class="keywords-section">
             <div class="container">
@@ -1219,9 +778,6 @@
  
   
             
-            
-            
-
 
         </div>
     </body>
